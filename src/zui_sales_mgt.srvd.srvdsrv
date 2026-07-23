@@ -1,0 +1,4 @@
+@EndUserText.label: 'Serv.Def. - Sales Management'
+define service Zui_sales_mgt {
+  expose zce_sales_mgt;
+}

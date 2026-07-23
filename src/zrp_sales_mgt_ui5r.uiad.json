@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Báo cáo quản lý đơn hàng bán"
+  },
+  "ui5AppDetails": {
+    "appId": "zrpsalesmgt"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_00B6EEDEFDC808DC743234ED2ACBE53AD213E85D_TM",
+    "semanticObject": "zrp_sales_mgt",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_00B6EEDEFDC808DC743234ED2ACBE53AD213E85D_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Báo cáo quản lý đơn hàng bán"
+      }
+    }
+  ]
+}

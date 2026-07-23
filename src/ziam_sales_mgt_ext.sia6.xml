@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZIAM_SALES_MGT_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>Iam App - Sales Management</DESCRIPTION>
+     <RESPONSIBLE>CB9980000070</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>AK3</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZPK_BC_QLY_LUONG_BAN</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZIAM_SALES_MGT_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZRP_SALES_MGT_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZUI_SALES_MGT_OV2                  0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_SALES_MGT_EXT</APP_ID>
+      <SRVC_NAME>3716D6F133DAE7D4B7A5E7B8AF9A82</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <UIAD_SRC>ZRP_SALES_MGT_UI5R</UIAD_SRC>
+      <TEXT>Ser.Bind. - Sales Management - OData V2</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <AUTH>
+     <item>
+      <AUTH_OBJECT>V_VBRK_VKO</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Billing: Authorization for Sales Organizations</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>+hY++Ax+H9GYuvFdTtZMAg==</UUID>
+        <AUTH_OBJECT>V_VBRK_VKO</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Billing: Authorization for Sales Organizations</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>VKORG</FIELD>
+          <VALUE>*</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY++Ax+H9GYuvFdTtZsAg==</UUID>
+            <LOW_VALUE>*</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Sales Organization</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display,Display in Value Help</VALUE>
+          <VALUES>
+           <item>
+            <UUID>+hY++Ax+H9GYuvFdTtaMAg==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>+hY++Ax+H9GYuvFdTtasAg==</UUID>
+            <LOW_VALUE>F4</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+    </AUTH>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>
